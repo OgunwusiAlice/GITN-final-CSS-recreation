@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sacramento&display=swap");
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+nav {
+  background-color: rgb(15 23 42/1);
+}
+
+nav a {
+  color: #66bfbf !important;
+}
+
+nav .logo {
+  font-family: "Sacramento", cursive;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+nav ul li {
+  margin-right: 1.5rem;
+}
+
+nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero {
+  height: calc(100vh - 56px);
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(15 23 42/1);
+}
+
+.hero h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-weight: 1000;
+  font-size: 3rem;
+}
+
+.hero p {
+  color: #66bfbf;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.middle {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #66bfbf;
+  font-family: "Merriweather", serif;
+  /* font-size: 3rem; */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(15 23 42/1);
+}
+.profile .intro {
+  text-align: center;
+  color: rgb(15 23 42/1);
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.middle .image1 {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+.image1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro p {
+  color: #66bfbf;
+  font-family: "Merriweather", serif;
+  /* line-height: 2; */
+}
+.skills {
+  height: 100vh;
+}
+.skills .image1 {
+  height: 15rem;
+  width: auto;
+  border-radius: 5px;
+}
+.skills .details {
+  width: 60%;
+}
+
+.contact {
+  height: 80vh;
+}
+
+.contact button {
+  background-color: rgb(15 23 42/1);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  transition: 0.3s ease-in;
+}
+.contact button:hover {
+  background-color: aquamarine;
+  color: #222;
+}
+
+.contact .desc {
+  /* color: aquamarine; */
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+hr {
+  border-top: 5px solid rgb(15 23 42/1);
+}
